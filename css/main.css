@@ -65,3 +65,32 @@ footer {
   background-color: #222;
   color: #FFF;
   padding: 1em; }
+
+/*
+Form stuff
+*/
+:invalid {
+  border: 1px solid #CE2029; }
+
+:required {
+  border-color: black; }
+
+form {
+  width: 100%;
+  margin: 1%; }
+
+input, textarea {
+  font-family: Helvetica, Arial, sans-serif;
+  border: 1px solid gray;
+  font-size: 1.5em;
+  width: 15em;
+  min-height: 1.5em;
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  outline: none; }
+
+input[type=submit] {
+  background: #222;
+  padding: 10px;
+  color: #FFF; }
